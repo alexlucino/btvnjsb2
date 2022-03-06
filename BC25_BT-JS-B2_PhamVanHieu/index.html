@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BT JS B2</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div id="project" class="container p-5">
+      <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#Bai1">Bài 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Bai2">Bài 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Bai3">Bài 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Bai4">Bài 4</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Bai5">Bài 5</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane container text-center active" id="Bai1">
+          <h3>Lương một ngày</h3>
+          <input id="luongNgay" type="text" value="100000" />
+          <h3>Số ngày làm</h3>
+          <input id="soNgayLam" type="text" /> <br />
+          <button id="btnTongB1" class="btn btn-success mt-1">
+            Tổng Lương
+          </button>
+          <br />
+          <br />
+          <span id="tongB1"></span>
+        </div>
+        <div class="tab-pane container text-center fade" id="Bai2">
+          <h3>Tính Trung Bình 5 Số</h3>
+          <input id="txtNumber1" type="text" placeholder="Số Thứ 1" /> <br />
+          <input id="txtNumber2" type="text" placeholder="Số Thứ 2" /> <br />
+          <input id="txtNumber3" type="text" placeholder="Số Thứ 3" /> <br />
+          <input id="txtNumber4" type="text" placeholder="Số Thứ 4" /> <br />
+          <input id="txtNumber5" type="text" placeholder="Số Thứ 5" /> <br />
+          <button id="btnTongB2" class="btn btn-success mt-1">
+            Trung Bình Tổng
+          </button>
+          <br />
+          <br />
+          <span id="tongB2"></span>
+        </div>
+        <div class="tab-pane container text-center fade" id="Bai3">
+          <h3>Tỉ giá USD</h3>
+          <span>1 USD = 23.500 VND</span> <br />
+          <h3>Số tiền USD cần đổi</h3>
+          <input id="soLuongUSD" type="text" /> <span>$</span> <br />
+          <button id="btnDoiUSD" class="btn btn-success mt-1">Đổi</button><br />
+          <br />
+          <span id="doiTienVND"></span>
+        </div>
+        <div class="tab-pane container text-center fade" id="Bai4">
+          <h3>Chiều dài</h3>
+          <input type="text" id="chieuDaiHCN" />
+          <h3>Chiều rộng</h3>
+          <input type="text" id="chieuRongHCN" /> <br />
+          <button id="btnDienTich" class="btn btn-success mt-1">
+            Diện Tích
+          </button>
+          <button id="btnChuVi" class="btn btn-success mt-1">Chu Vi</button>
+          <br />
+          <br />
+          <span id="kqHCN"></span>
+        </div>
+        <div class="tab-pane container text-center fade" id="Bai5">
+          <h3>Tính Tổng 2 Ký Số</h3>
+          <input type="text" id="giaTri2KySo" placeholder="Nhập 2 ký số"> <br>
+          <button id="btnTinh2KySo" class="btn btn-success mt-1">Tính</button> <br> <br>
+          <span id="tong2KySo"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
